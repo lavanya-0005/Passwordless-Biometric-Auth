@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reports</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        🛡 <span>SecurePass</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="voice.html">Voice</a></li>
+
+        <li><a href="face.html">Face</a></li>
+
+        <li><a href="dashboard.html">Dashboard</a></li>
+
+        <li><a href="users.html">Users</a></li>
+
+        <li><a href="reports.html">Reports</a></li>
+
+        <li><a href="index.html" onclick="return confirm('Logout from SecurePass?')">Logout</a></li>
+
+    </ul>
+
+</nav>
+<div class="container">
+
+<h1>📄 Reports</h1>
+
+<p>Download Login History Reports</p>
+
+<br>
+
+<button onclick="downloadPDF()">
+Download PDF Report
+</button>
+
+<br><br>
+
+<button onclick="downloadExcel()">
+Download Excel Report
+</button>
+
+<br><br>
+
+<button onclick="location.href='index.html'">
+Back
+</button>
+
+</div>
+
+<script src="reports.js"></script>
+
+</body>
+
+</html>

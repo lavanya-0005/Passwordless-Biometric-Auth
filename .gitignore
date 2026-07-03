@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# VS Code
+.vscode/
+
+# Database (optional)
+database/users.db
+
+# Generated files
+reports/login_report.pdf
+reports/login_report.xlsx
+
+# User biometric data
+recordings/
+face_data/
+
+# Operating System
+.DS_Store
+Thumbs.db

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SecurePass - Passwordless Biometric Authentication</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        🛡 <span>SecurePass</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="voice.html">Voice</a></li>
+
+        <li><a href="face.html">Face</a></li>
+
+        <li><a href="dashboard.html">Dashboard</a></li>
+
+        <li><a href="users.html">Users</a></li>
+
+        <li><a href="reports.html">Reports</a></li>
+
+        <li><a href="index.html" onclick="return confirm('Logout from SecurePass?')">Logout</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="container">
+
+    <h1>🛡️ SecurePass</h1>
+
+    <p class="subtitle">
+        Passwordless Biometric Authentication System
+    </p>
+
+    <br>
+
+    <div class="cards">
+
+        <div class="card" onclick="location.href='voice.html'">
+
+            <h2>🎤</h2>
+
+            <h3>Voice Authentication</h3>
+
+            <p>
+                Register and Login using your Voice.
+            </p>
+
+        </div>
+
+        <div class="card" onclick="location.href='face.html'">
+
+            <h2>👤</h2>
+
+            <h3>Face Authentication</h3>
+
+            <p>
+                Register and Login using Face Recognition.
+            </p>
+
+        </div>
+
+        <div class="card" onclick="location.href='dashboard.html'">
+
+            <h2>📊</h2>
+
+            <h3>Admin Dashboard</h3>
+
+            <p>
+                View users, login history and statistics.
+            </p>
+
+        </div>
+
+        <div class="card" onclick="location.href='reports.html'">
+
+            <h2>📄</h2>
+
+            <h3>Reports</h3>
+
+            <p>
+                Download Login Reports in PDF & Excel.
+            </p>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    
+</div>
+
+</body>
+
+</html>

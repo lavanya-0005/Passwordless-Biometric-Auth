@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Voice Authentication</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        🛡 <span>SecurePass</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="voice.html">Voice</a></li>
+
+        <li><a href="face.html">Face</a></li>
+
+        <li><a href="dashboard.html">Dashboard</a></li>
+
+        <li><a href="users.html">Users</a></li>
+
+        <li><a href="reports.html">Reports</a></li>
+
+        <li><a href="index.html" onclick="return confirm('Logout from SecurePass?')">Logout</a></li>
+
+    </ul>
+
+</nav>
+<div class="container">
+
+<h1>🎤 Voice Authentication</h1>
+
+<p class="subtitle">
+Register or Login using your voice
+</p>
+
+<input
+type="text"
+id="username"
+placeholder="Enter Username">
+
+<div class="buttons">
+
+<button onclick="registerUser()">
+Register Voice
+</button>
+
+<button onclick="loginUser()">
+Login
+</button>
+<br><br>
+
+<button onclick="location.href='index.html'">
+    ⬅ Back
+</button>
+
+</div>
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

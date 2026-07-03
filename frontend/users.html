@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>User Management</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        🛡 <span>SecurePass</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="voice.html">Voice</a></li>
+
+        <li><a href="face.html">Face</a></li>
+
+        <li><a href="dashboard.html">Dashboard</a></li>
+
+        <li><a href="users.html">Users</a></li>
+
+        <li><a href="reports.html">Reports</a></li>
+
+        <li><a href="index.html" onclick="return confirm('Logout from SecurePass?')">Logout</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="container">
+
+<h1>👥 User Management</h1>
+
+<br>
+
+<input
+type="text"
+id="search"
+placeholder="Search Username..."
+onkeyup="searchUser()">
+
+<br><br>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Username</th>
+<th>Registered On</th>
+<th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="usersTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<button onclick="location.href='index.html'">
+
+⬅ Back
+
+</button>
+
+</div>
+
+<script src="users.js"></script>
+
+</body>
+
+</html>

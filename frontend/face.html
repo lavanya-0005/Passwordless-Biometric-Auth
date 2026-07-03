@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Face Authentication</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        🛡 <span>SecurePass</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="voice.html">Voice</a></li>
+
+        <li><a href="face.html">Face</a></li>
+
+        <li><a href="dashboard.html">Dashboard</a></li>
+
+        <li><a href="users.html">Users</a></li>
+
+        <li><a href="reports.html">Reports</a></li>
+
+        <li><a href="index.html" onclick="return confirm('Logout from SecurePass?')">Logout</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="container">
+
+    <h1>👤 Face Authentication</h1>
+
+    <p class="subtitle">
+        Register and Login using Face Recognition
+    </p>
+
+    <input
+        type="text"
+        id="username"
+        placeholder="Enter Username">
+
+    <br><br>
+
+    <video
+        id="video"
+        width="400"
+        height="300"
+        autoplay
+        playsinline
+        style="border:2px solid #444;border-radius:10px;">
+    </video>
+
+    <canvas
+        id="canvas"
+        width="400"
+        height="300"
+        style="display:none;">
+    </canvas>
+
+    <br><br>
+
+    <button onclick="startCamera()">
+        🎥 Start Camera
+    </button>
+
+    <button onclick="registerFace()">
+        📷 Register Face
+    </button>
+
+    <button onclick="loginFace()">
+        😀 Face Login
+    </button>
+
+    <br><br>
+
+    <p id="result"></p>
+
+    <br>
+
+    <button onclick="location.href='index.html'">
+        ⬅ Back
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

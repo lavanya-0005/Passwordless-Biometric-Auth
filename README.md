@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-**SecurePass** is a passwordless biometric authentication system developed as a **Final Year B.Tech Computer Science & Engineering project**.
+**SecurePass** is a Passwordless Biometric Authentication System developed as a **Final Year B.Tech Computer Science & Engineering project**.
 
 The system provides an alternative to traditional password-based authentication by enabling users to register and authenticate using **facial recognition** and **voice-based biometric verification**.
 
@@ -18,7 +18,7 @@ SecurePass also includes an **Admin Dashboard** for user management, authenticat
 - 👥 Provide centralized user management through an Admin Dashboard
 - 📜 Maintain authentication and login history
 - 📊 Generate reports for administrative analysis
-- 💾 Securely manage application data using a database
+- 💾 Manage application data using SQLite
 
 ---
 
@@ -127,7 +127,7 @@ Passwordless-Biometric-Auth/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR-REPOSITORY-URL-HERE
+git clone https://github.com/lavanya-0005/Passwordless-Biometric-Auth.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -188,7 +188,13 @@ Login History & Admin Monitoring
 - Database Management
 - Frontend Development
 - Report Generation
-- Full-Stack Project Development
+- Full-Stack Application Development
+
+---
+
+## 🔗 Project Link
+
+💻 **[View Source Code](https://github.com/lavanya-0005/Passwordless-Biometric-Auth)**
 
 ---
 
